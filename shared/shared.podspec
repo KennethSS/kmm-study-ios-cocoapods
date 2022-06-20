@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
     spec.authors                  = 'KennethSS'
     spec.license                  = { :type => "MIT", :file => "LICENSE" }
     spec.summary                  = 'Some description for the Shared Module'
-    spec.vendored_frameworks      = "build/cocoapods/framework/shared.framework"
+    spec.vendored_frameworks      = "YourModuleName.xcframework"
     spec.libraries                = "c++"
     spec.module_name              = "#{spec.name}_umbrella"
     spec.ios.deployment_target = '14.1'
